@@ -1,0 +1,230 @@
+body{
+    background-color: aqua;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.login-form, .contenedor{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.login-form h1{
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    padding: 70px 0 10px 0;
+}
+
+.login-form input[type="password"],
+.login-form input[type="text"]{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid snow;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* estilo boton login */
+.btn-login{
+    width: 100%;
+    padding: 15px;
+    background-color:rgb(21, 21, 22);
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #ffff;
+}
+
+.btn-login:hover,.btn-login:active{
+    color: aliceblue;
+    background-color: black;
+    border-color: black;
+}
+
+.btn-login:focus{
+    box-shadow: 0 0 0 3px rgb(21, 21, 22);
+}
+
+.btn-register{
+    width: 100%;
+    padding: 15px;
+    background-color:rgb(66, 66, 194);
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #ffff;   
+    margin-top: 20px;
+    /* apariencia al boton */
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+
+.btn-register:hover,.btn-register:active{
+    color: aliceblue;
+    background-color: rgb(173, 172, 172);
+    border-color: rgb(139, 137, 137);
+}
+
+.btn-register:focus{
+    box-shadow: 0 0 0 3px rgb(184, 184, 185);  
+}
+
+/* estilos del login */
+
+.a-login:link, .a-login:visited{
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid #10b910;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.a-login:hover, .a-login:active {
+    background-color: aliceblue;
+    color:black;
+}
+
+/*  estilos para realizar el LOGOUT */
+.a-logout:link, .a-logout:visited{
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid #f8717f;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.a-logout:hover, .a-logout:active{
+    background-color: #f8717f;
+    color: antiquewhite;
+}
+
+/* boton cancelar */
+.btn-cancel{
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(24, 24, 24);
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(245, 244, 244);
+    text-align: center;
+    margin-top: 20px;
+    /* estilo al boton  */
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+
+.btn-cancel:hover, .btn-cancel:active{
+    color: black;
+    background-color: #7e797a;
+    border-color: black;
+}
+
+.btn-cancel:focus{
+    box-shadow: 0 0 0 3px cornsilk;
+}
+
+/* boton guardar */
+.btn-save{
+    width: 50%;
+    padding: 15px;
+    background-color:rgb(87, 87, 218);
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    color: #ffff;   
+    margin-top: 20px;
+    /* apriencia el boton */
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+
+.btn-save:hover,.btn-save:active{
+    color: aliceblue;
+    background-color: rgb(173, 172, 172);
+    border-color: rgb(139, 137, 137);
+}
+
+.btn-save:focus{
+    box-shadow: 0 0 0 3px #0e0d0d;
+}   
+/* registro */
+.register-from{
+    width: 400px;
+    margin: 0 auto;
+    padding: 0px 20px 60px 20px;
+    margin-top: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left !important;
+    box-shadow: 0 19px 38px rgb(139, 137, 137), 0 15px 12px rgb(173, 172, 172);
+}
+    
+.register-from h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 70px 0 10px 0;
+}
+
+.register-form input[type="password"],
+.register-form input[type="text"]{
+    width: 50%;
+    padding: 16px;
+    border: 2px solid snow;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+.select-css{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 1em 1.2em .2em .6em;
+    width: 200px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.select-css::-ms-expand{
+    display: none;
+}
+
+.select-css:hover{
+    border-color:aliceblue;
+}
+
+.select-css:focus{
+    border-color:aliceblue;
+    box-shadow: 0 0 1px 3px rgb(66, 66, 194);
+    box-shadow: 0 0 0 3px -moz-mac-focusring; 
+    color:black;
+    outline: none;
+}
+
+.select-css option {
+    font-weight: normal;
+}
